@@ -1,0 +1,25 @@
+{
+  "name": "language-lifescript",
+  "displayName": "language-lifescript",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "life",
+      "aliases": ["Life Script", "life"],
+      "extensions": [".life"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "life",
+      "scopeName": "source.life",
+      "path": "./syntaxes/life.tmLanguage.json"
+    }]
+  }
+}
